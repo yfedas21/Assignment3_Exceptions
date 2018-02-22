@@ -31,7 +31,10 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="zeroinput.txt">
+    <Text Include="testcase1.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="testcase3.txt">
       <Filter>Resource Files</Filter>
     </Text>
   </ItemGroup>
