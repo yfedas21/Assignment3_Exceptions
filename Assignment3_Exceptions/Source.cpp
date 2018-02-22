@@ -14,8 +14,11 @@ int main() {
 		int number = read_int("Please enter a number within the range: ", low, high);
 		std::cout << "You entered " << number << std::endl;
 	}
+	catch (std::range_error &ex) {
+		std::cerr << ex.what() << std::endl;
+	}
 	catch (std::invalid_argument &ex) {
-		std::cerr << ex.what();
+		std::cerr << ex.what() << std::endl;
 	}
 	
 	system("PAUSE");
